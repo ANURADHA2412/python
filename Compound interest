@@ -1,0 +1,7 @@
+p=eval(input("enter the principal"))
+r=eval(input("enter the rate"))
+t=eval(input("enter the time"))
+a=p*((1+(r/100))**t)
+ci=a-p
+print("compond intrest=",ci)
+print("total amount=",a)
