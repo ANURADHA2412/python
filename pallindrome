@@ -1,0 +1,9 @@
+#program name-palindrome in string
+
+
+a=input("enter the string for cheking , it is palindrome or not")
+s=a[ : :-1]
+if (s==a):
+	print("the string is palindrome")
+else:
+	print("the string  is not palindrome")
